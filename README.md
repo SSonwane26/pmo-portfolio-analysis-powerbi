@@ -5,16 +5,15 @@
 **Tools:** Excel | Power Query | Power BI | DAX  
 **Project type:** Provided case-study dataset  
 **Author:** Saurabh Sonwane  
-**Full case study:** [Add link to the case study document]  
-**Power BI report:** [Add published report or portfolio link]
+**Full case study:** [PMO_CaseStudy.pdf](PMO_Portfolio_Analysis_Case_Study.pdf)  
+**Power BI report:** [published report](https://app.powerbi.com/view?r=eyJrIjoiMDRkYWQ5MmQtNzk1Mi00MjllLTkwOWEtMGY5OGI5ZTVkOGJjIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9&pageName=2387f48801794c2186ff)
 
 ---
 
 ## Dashboard Preview
 
-![PMO Portfolio Analysis Dashboard](images/dashboard_preview.png)
+![PMO Portfolio Analysis Dashboard](images/report_preview.png)
 
-> Replace `images/dashboard_preview.png` with a screenshot from your final report. Add the image to the repository at that path, or update the path above.
 
 ---
 
@@ -60,7 +59,7 @@ The latest available record for each project may not be from the same reporting 
 6. **Dashboard (Power BI):** Built four pages with KPI cards, charts, tables, slicers and report-page tooltips.
 7. **Review and interpretation:** Compared the results with the business questions and documented data limitations.
 
-**SQL was not used in this version of the project.** The work described here used Excel, Power Query, Power BI and DAX.
+The work described here used Excel, Power Query, Power BI and DAX.
 
 ## Power BI Report Pages
 
@@ -144,21 +143,18 @@ Update this example to match the folders and files you actually publish:
 
 ```text
 pmo-portfolio-analysis/
-|-- powerbi/
+|-- rawdataset
+|-- powerbireport/
 |   |-- PMO_Portfolio_Analysis.pbix
 |-- images/
-|   |-- dashboard_preview.png
+|   |-- report_preview.png
 |   |-- page_1_overview.png
 |   |-- page_2_delivery_financial.png
 |   |-- page_3_risk_resources_benefits.png
 |   |-- page_4_portfolio_decisions.png
-|-- docs/
-|   |-- PMO_Portfolio_Analysis_Case_Study.docx
-|   |-- PMO_Portfolio_Analysis_Part_B_Career_Assets.docx
+|-- PMO_Portfolio_Analysis_Case_Study.pdf
 |-- README.md
 ```
-
-> No SQL folder is listed because SQL scripts were not created for this version. Do not include the source workbook unless you have permission to redistribute it.
 
 ## How to Use This Project
 
@@ -166,9 +162,7 @@ pmo-portfolio-analysis/
 2. Open the `.pbix` file in `powerbi/` using Power BI Desktop.
 3. Use the Business Unit and Programme slicers to explore the report.
 4. Review each report page, and hover over supported visuals to see report-page tooltips.
-5. Read the case study in `docs/` for the business context, definitions, findings and limitations.
-
-The source workbook is not included by default. If you have permission to share it, add it to the repository and update this section.
+5. Read the case study in `/pdf` for the business context, definitions, findings and limitations.
 
 ## Limitations and Next Steps
 
@@ -178,8 +172,6 @@ The source workbook is not included by default. If you have permission to share 
 - The action thresholds are case-study assumptions and should be agreed with business stakeholders before use in a real PMO.
 - The formula behind the source risk exposure score was not independently recreated.
 - Missing benefit-realisation values need context; they should not automatically be treated as zero.
-- SQL was not used in this version.
-- Next steps: validate decision thresholds with stakeholders, test slicers and tooltips, publish the report, add real project links, and optionally reproduce selected checks in SQL as a separate extension.
 
 ## What I Learned
 
@@ -191,6 +183,4 @@ The source workbook is not included by default. If you have permission to share 
 ## Contact
 
 **Saurabh Sonwane**  
-[LinkedIn](https://linkedin.com/in/your-profile) | [Email](mailto:your-email@example.com)
-
-> Replace the LinkedIn and email placeholders with your actual public profile details before publishing.
+[LinkedIn](https://www.linkedin.com/in/ssonwane26/)
